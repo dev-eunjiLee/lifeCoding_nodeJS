@@ -20,6 +20,7 @@ const port = 3000;
 /*
     http.creatServer()
      - return: http.server
+     - HTTP 요청이 서버에 오면 node가 트랜잭셔능ㄹ 다루기 위해 request, response 객체를 전달한다.
      - 해당 함수의 파라미터로 requestListener() 함수가 화살표함수(java의 람다식)의 형태로 들어간다.
         - requestListener()함수: request를 얻었을 때 어떻게 처리할지에 대해 처리할지에 대해 정의
             - 1번째 파라미터: request
